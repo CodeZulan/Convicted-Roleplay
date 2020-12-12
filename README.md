@@ -15,6 +15,7 @@ This is an open-source project, meaning you can use this gamemode for your own s
 - Clone this repository [Clone](https://github.com/CodeZulan/Convicted-Roleplay.git).
 - Download [XAMPP](https://www.apachefriends.org/index.html) and start Apache and MySQL.
 - In VSCode / Windows Command Prompt do these commands (in-order)
+
 | Command                | Description                          |
 | ---------------------- | ------------------------------------ |
 | sampctl package init   | Initialize your cloned repository    |
