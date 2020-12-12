@@ -11,8 +11,8 @@ A Prison Roleplay Gamemode - A Prison Themed Roleplay Gamemode
 ## How to Contribute
 This is an open-source project, meaning you can use this gamemode for your own server as you like, but if you want to contribute to the main project here in Convicted Roleplay, follow these instructions:
 
-- Download sampctl tool to start this project [sampctl](https://github.com/Southclaws/sampctl/releases/tag/1.9.1).
-- Clone this repository [Clone](https://github.com/CodeZulan/Convicted-Roleplay.git).
+- Download [sampctl](https://github.com/Southclaws/sampctl/releases/tag/1.9.1) tool to start this project.
+- [Clone](https://github.com/CodeZulan/Convicted-Roleplay.git) this repository.
 - Download [XAMPP](https://www.apachefriends.org/index.html) and start Apache and MySQL.
 - In VSCode / Windows Command Prompt do these commands (in-order)
 
