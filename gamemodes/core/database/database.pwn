@@ -52,6 +52,7 @@ ConnectToSQL()
     if(mysql_errno(mysql))
 	{
 		print("MYSQL Connection failed to establish! Closing the server...");
+        print("Make sure to check gamemodes/core/database/database.pwn and configure the details...");
 		SendRconCommand("exit");
 	}
     else

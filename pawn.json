@@ -8,7 +8,10 @@
 		"pawn-lang/YSI-Includes@5.x",
 		"katursis/Pawn.CMD:3.3.3",
 		"pBlueG/SA-MP-MySQL:R41-4",
-		"Sreyas-Sreelal/samp-bcrypt:0.2.3"
+		"Sreyas-Sreelal/samp-bcrypt:0.2.3",
+		"maddinat0r/sscanf:v2.8.3",
+		"samp-incognito/samp-streamer-plugin:v2.9.4",
+		"PatrickGTR/MySQL-Prepared-Statements"
 	],
 	"local": true,
 	"runtime": {

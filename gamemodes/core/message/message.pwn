@@ -27,10 +27,18 @@
 	Function Declarations
 	---------------------
 */
-stock SendClientMessageEx(playerid, color, const fmat[], va_args<>)
+SendClientMessageEx(playerid, color, const fmat[], va_args<>)
 {
     new str[145];
 	va_format(str, sizeof (str), fmat, va_start<3>);
 	SendClientMessage(playerid, color, str);
+    return 1;
+}
+
+SendClientMessageToAllEx(color, const fmat[], va_args<>)
+{
+    new str[145];
+	va_format(str, sizeof (str), fmat, va_start<3>);
+	SendClientMessageToAll(color, str);
     return 1;
 }

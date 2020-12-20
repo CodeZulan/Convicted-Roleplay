@@ -12,20 +12,11 @@
 *	Sreyas-Sreelal - Bcrypt Plugin
 *
 *	Module:
-*	core/utilities/utils_functions.pwn - This module is for general functions for the gm.
+*	core/commands/cmd_stats.pwn - This is the command for showing player stats
 ******************************************************************************************/
-/*
-	-------------------
-	Dependency includes
-	-------------------
-*/
 
-#include <YSI_Coding\y_inline>
-#include <YSI_Visual\y_dialog>
-
-GetPlayerNameEx(playerid)
+CMD:stats(playerid, params[])
 {
-    new playername[MAX_PLAYER_NAME + 1];
-    GetPlayerName(playerid, playername);
-    return playername;
+    SendClientMessage(playerid, color, const message[])
+    return 1;
 }

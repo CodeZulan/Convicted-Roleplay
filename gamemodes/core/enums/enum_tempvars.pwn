@@ -12,29 +12,13 @@
 *	Sreyas-Sreelal - Bcrypt Plugin
 *
 *	Module:
-*	core/enums/enum_player.pwn - This module is for the 3d array of PlayerInfo player variables
+*	core/enums/enum_tempvars.pwn - This module is for the 3d array of Temporary Player Variables
 ************************************************************************************************/
 
-enum pInfo{
-    pID,
-    pName[MAX_PLAYER_NAME + 1],
-    pPassword[64],
-    pBanned,
-    pAdmin[6],
-    pLevel,
-    pCash,
-    Float:pXPos,
-    Float:pYPos,
-    Float:pZPos,
-    Float:pAngle,
-    pInterior,
-    pWorld,
-    pComponents,
-    pMarijuana,
-    pMeth,
-    pOpium,
-    pMushroom,
-    pCrack,
-    pJob,
+enum tempInfo{
+    bool:LoggedIn,
+    LoginAttempt = 5,
+    ClickedPlayer,
+    TempString[1024]
 };
-new PlayerInfo[11][pInfo];
+new TempVars[1][tempInfo];

@@ -16,6 +16,14 @@
 ***********************************************************************************/
 
 enum{
+    DIALOG_UNIVERSAL,
     DIALOG_REGISTER,
-    DIALOG_LOGIN
+    DIALOG_LOGIN,
+    DIALOG_HELP,
+    DIALOG_COMMANDS,
+    DIALOG_ROLEPLAYING,
+    DIALOG_BUNKER,
+    DIALOG_SHOWID,
+    DIALOG_RESTART,
+    DIALOG_JOBOFFERS
 };
